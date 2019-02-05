@@ -40,4 +40,4 @@ dnf -y clean all
 rm -rf /samtools* /portcullis* /Release-*
 
 %runscript
-portcullis "$@"
+exec portcullis "$@"
